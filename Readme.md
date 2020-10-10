@@ -2,6 +2,7 @@ Docker file for .Net application runing on containers to query Hive using beelin
 
 
 Example call
+
 string connect = $"beeline -u 'jdbc:hive2://...";
             var process = new Process()
             {
